@@ -5,6 +5,7 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
+        <img src="img/logo.png" width="200px"></img>
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -18,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            AcademIQ
+            
           </a>{" "}
         </div>
 
@@ -38,11 +39,11 @@ export const Navigation = (props) => {
                 About
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#demo" className="page-scroll">
                 Demo
               </a>
-            </li>
+            </li> */}
            
             <li>
               <a href="#contact" className="page-scroll">
